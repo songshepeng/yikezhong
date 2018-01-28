@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\My_wrok\\Home_work\\taoBao_Shopcart\\build\\intermediates\\res\\merged\\debug\\layout\\item_shopcart_group.xml",
+        "source": "D:\\My_wrok\\Home_work\\taoBao_Shopcart\\src\\main\\res\\layout\\item_shopcart_group.xml"
+    },
+    {
+        "merged": "D:\\My_wrok\\Home_work\\taoBao_Shopcart\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\My_wrok\\Home_work\\taoBao_Shopcart\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\My_wrok\\Home_work\\taoBao_Shopcart\\build\\intermediates\\res\\merged\\debug\\layout\\item_shopcart_product.xml",
+        "source": "D:\\My_wrok\\Home_work\\taoBao_Shopcart\\src\\main\\res\\layout\\item_shopcart_product.xml"
+    }
+]

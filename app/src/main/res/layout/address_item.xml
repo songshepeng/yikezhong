@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#A2A2A2"
+    android:orientation="vertical">
+      <RelativeLayout
+          android:layout_marginTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+         <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/add_name"
+          android:text="name"
+           android:layout_alignParentLeft="true"
+             android:textColor="#FFFFFF"
+          />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/add_phone"
+              android:text="1223"
+              android:layout_alignParentRight="true"
+              android:textColor="#FFFFFF"
+              />
+      </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_address"
+            android:text="地址"
+            android:layout_alignParentLeft="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/add_che"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="默认地址"
+
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_centerVertical="true"
+            android:textColor="#FFFFFF"
+            android:id="@+id/add_bianji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="编辑" />
+    </RelativeLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#FFFFFF"
+    />
+</LinearLayout>

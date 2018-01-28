@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwei.ssp.home_work.Fragment.me.MeActivity"
+    android:orientation="vertical">
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="40dp">
+         <ImageView
+             android:layout_width="30dp"
+             android:layout_height="20dp"
+             android:background="@drawable/back"
+             android:layout_marginTop="10dp"
+             android:id="@+id/me_back"
+             />
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="个人资料"
+                android:textSize="30sp"
+                />
+     </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:background="#ccc"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:id="@+id/img"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"
+            android:textSize="30sp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/me_phone"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="会员名"
+            android:textSize="30sp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:text="name"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/me_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="昵称"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别"
+            android:textSize="30sp"
+            />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/finsh"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="注销当前用户"
+        />
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwei.ssp.home_work.Fragment.Shouye.SearchActivity"
+    android:orientation="vertical">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:orientation="vertical"
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="clip_vertical"
+          >
+
+          <ImageView
+              android:layout_marginTop="10dp"
+              android:layout_width="35dp"
+              android:layout_height="30dp"
+              android:id="@+id/back"
+              android:background="@drawable/back"
+              />
+          <SearchView
+              android:id="@+id/seach"
+              android:layout_width="0dp"
+              android:layout_weight="9"
+              android:layout_height="wrap_content"
+              android:iconifiedByDefault="false"
+              android:queryHint="请输入搜索内容"
+              />
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="搜索"
+              android:id="@+id/but"
+              />
+      </LinearLayout>
+      <android.support.v7.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/xlv"
+          />
+      <Button
+          android:visibility="gone"
+          android:id="@+id/clear"
+          android:layout_marginTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="清空搜索记录"
+          />
+
+
+  </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="语音听写"
+        android:id="@+id/showDialogs"
+        />
+</LinearLayout>
